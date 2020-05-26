@@ -1,6 +1,6 @@
-# rolling-cubes-game
+# FlappyBird game
 
-The rolling cubes puzzle game.
+This game is an implementation of the famous Flappy Bird game.
 
 ## Requirements
 
