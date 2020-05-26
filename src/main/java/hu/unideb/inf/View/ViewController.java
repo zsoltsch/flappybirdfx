@@ -91,58 +91,58 @@ public class ViewController {
 
     /** Set the stlye to the elements. */
     public void init() {
-        playerNameLabel.setStyle("-fx-translate-x: 310; -fx-translate-y: 405; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        playerNameLabel.setStyle("-fx-translate-x: 310; -fx-translate-y: 405; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         playerNameLabel.setVisible(false);
 
         playerName.setBackground(Background.EMPTY);
-        playerName.setStyle("-fx-translate-x: 410; -fx-translate-y: 400; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        playerName.setStyle("-fx-translate-x: 410; -fx-translate-y: 400; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         playerName.setVisible(false);
 
-        doneLabel.setStyle("-fx-translate-x: 340; -fx-translate-y: 550; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        doneLabel.setStyle("-fx-translate-x: 340; -fx-translate-y: 550; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         doneLabel.setVisible(false);
 
-        leadBoardLabel.setStyle("-fx-translate-x: 250; -fx-translate-y: 350; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        leadBoardLabel.setStyle("-fx-translate-x: 250; -fx-translate-y: 350; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         leadBoardLabel.setVisible(false);
 
-        soundText.setStyle("-fx-translate-x: 310; -fx-translate-y: 405; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        soundText.setStyle("-fx-translate-x: 310; -fx-translate-y: 405; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         soundText.setVisible(false);
 
         onButton.getStyleClass().remove("radio-button");
         onButton.getStyleClass().add("toggle-button");
         onButton.setBackground(Background.EMPTY);
-        onButton.setStyle("-fx-translate-x: 430; -fx-translate-y: 400; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        onButton.setStyle("-fx-translate-x: 430; -fx-translate-y: 400; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         onButton.setVisible(false);
 
-        scoreLabel.setStyle("-fx-translate-x: 600; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        scoreLabel.setStyle("-fx-translate-x: 600; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
 
-        descLabel.setStyle("-fx-translate-x: 80; -fx-translate-y: 250; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 40px;");
+        descLabel.setStyle("-fx-translate-x: 80; -fx-translate-y: 250; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 40px;");
         descLabel.setVisible(false);
 
-        failLabel.setStyle("-fx-translate-x: 300; -fx-translate-y: 200; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 60px;");
+        failLabel.setStyle("-fx-translate-x: 300; -fx-translate-y: 200; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 60px;");
         failLabel.setVisible(false);
 
-        resumeLabel.setStyle("-fx-translate-x: 345; -fx-translate-y: 350; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        resumeLabel.setStyle("-fx-translate-x: 345; -fx-translate-y: 350; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         resumeLabel.setVisible(false);
 
-        newGameLabel.setStyle("-fx-translate-x: 330; -fx-translate-y: 400; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        newGameLabel.setStyle("-fx-translate-x: 330; -fx-translate-y: 400; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         newGameLabel.setVisible(false);
 
         highScoreLabel.setStyle("-fx-translate-x: 320; -fx-translate-y: 450; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         highScoreLabel.setVisible(false);
 
-        exitLabel.setStyle("-fx-translate-x: 370; -fx-translate-y: 550; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        exitLabel.setStyle("-fx-translate-x: 370; -fx-translate-y: 550; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         exitLabel.setVisible(false);
 
-        backLabel.setStyle("-fx-translate-x: 340; -fx-translate-y: 550; -fx-text-fill: white;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
+        backLabel.setStyle("-fx-translate-x: 340; -fx-translate-y: 550; -fx-text-fill: black;  -fx-font-family: 'Press Start 2P'; -fx-font-size: 20px;");
         backLabel.setVisible(false);
 
         optionsLabel.setFont(Font.font("Press Start 2P", 20));
-        optionsLabel.setTextFill(Color.WHITE);
+        optionsLabel.setTextFill(Color.BLACK);
         optionsLabel.setTranslateX(340);
         optionsLabel.setTranslateY(500);
         optionsLabel.setVisible(false);
 
-        tableView.setStyle("-fx-font-family: 'Press Start 2P'; -fx-font-size: 20px; -fx-text-fill: white; " +
+        tableView.setStyle("-fx-font-family: 'Press Start 2P'; -fx-font-size: 20px; -fx-text-fill: black; " +
                           "-fx-background-color: transparent; -fx-base: rgba(0,0,0,0);"+
                           "-fx-table-header-border-color: transparent; -fx-border-color: transparent; " +
                           "-fx-table-cell-border-color: transparent; -fx-control-inner-background: transparent;" +

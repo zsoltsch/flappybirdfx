@@ -152,9 +152,9 @@ public class Main extends Application {
             });
 
             if (SCORE < 10) {
-                ship.rect.setFill(new ImagePattern(img_g, 0, 0, 1, 1, true));
-            } else if (SCORE >= 10) {
                 ship.rect.setFill(new ImagePattern(img_r, 0, 0, 1, 1, true));
+            } else if (SCORE >= 10) {
+                ship.rect.setFill(new ImagePattern(img_g, 0, 0, 1, 1, true));
             }
 
             if (SCORE % 10 == 0 && SCORE != 0) {
